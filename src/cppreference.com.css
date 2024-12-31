@@ -13,3 +13,9 @@ pre,
 #wpTextbox1 {
   font-family: "Fira Code", "Inconsolata", "Monaco" !important;
 }
+
+div#cpp-head-second-base,
+div.vectorTabs,
+div.vectorTabs * {
+  background-image: none !important;
+}
