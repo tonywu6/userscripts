@@ -6,8 +6,11 @@
 (() => {
   document.querySelectorAll("h1").forEach((elem) => {
     if (elem.textContent === "AI Overview") {
-      if (elem.parentElement) {
-        elem.parentElement.style.display = "none";
+      const parent = elem.parentElement;
+      if (parent) {
+        parent.style.visibility = "hidden";
+        parent.style.height = "0px";
+        parent.style.marginBottom = "24px";
       }
     }
   });
