@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         swift.org
+@match        https://swift.org/*
+@match        https://*.swift.org/*
+==/UserStyle== */
+
+@font-face {
+  font-family: "Menlo";
+  src: local("SFMono-Regular");
+}
+
+@font-face {
+  font-family: "Menlo";
+  font-weight: bold;
+  src: local("SFMono-Bold");
+}

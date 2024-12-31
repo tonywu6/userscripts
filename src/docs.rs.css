@@ -1,0 +1,10 @@
+/* ==UserStyle==
+@name         docs.rs
+@match        https://docs.rs/*
+@match        https://doc.rust-lang.org/*
+@match        https://rustwasm.github.io/*
+==/UserStyle== */
+
+.main-heading:has(.rustdoc-breadcrumbs) {
+  margin-block-start: 1rem;
+}

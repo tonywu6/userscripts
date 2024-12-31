@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name         developer.apple.com
+@match        /^.*developer\.apple\.com/library/archive.*$/
+==/UserStyle== */
+
+@font-face {
+  font-family: "Lucida Grande";
+  src: local("HelveticaNeue");
+}
+
+@font-face {
+  font-family: "Lucida Grande";
+  font-weight: bold;
+  src: local("HelveticaNeue-Bold");
+}
+
+@font-face {
+  font-family: "Lucida Grande";
+  font-style: italic;
+  src: local("HelveticaNeue-Italic");
+}
+
+@font-face {
+  font-family: "Lucida Grande";
+  font-weight: bold;
+  font-style: italic;
+  src: local("HelveticaNeue-BoldItalic");
+}

@@ -1,0 +1,9 @@
+/* ==UserStyle==
+@name        gnu.org
+@match       https://www.gnu.org/*
+==/UserStyle== */
+
+body,
+a[href] {
+  font-family: Helvetica Neue;
+}

@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name        ziglang.org/documentation
+@match       https://ziglang.org/documentation/*
+==/UserStyle== */
+
+body > section {
+  margin-inline: 11em;
+}
+
+p {
+  line-height: 1.5;
+}

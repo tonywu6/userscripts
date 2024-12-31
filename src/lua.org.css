@@ -1,0 +1,9 @@
+/* ==UserStyle==
+@name        lua.org
+@match       https://*.lua.org/*
+==/UserStyle== */
+
+body,
+table.columns td {
+  text-align: unset;
+}

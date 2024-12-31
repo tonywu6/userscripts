@@ -1,0 +1,9 @@
+/* ==UserStyle==
+@name         monospace
+@match        <all_urls>
+==/UserStyle== */
+
+html:not([data-docs-rs-theme]) body:not(.rustdoc) pre,
+html:not([data-docs-rs-theme]) body:not(.rustdoc) code {
+  font-family: Menlo, monospace;
+}

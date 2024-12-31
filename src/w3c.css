@@ -1,0 +1,33 @@
+/* ==UserStyle==
+@name       w3c
+@match      https://w3c.github.io/*
+@match      https://www.w3.org/*
+@match      https://tc39.es/*
+@exclude    https://tc39.es/ecma262/*
+@run-at     document-start
+==/UserStyle== */
+
+html,
+div.example,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+em,
+strong,
+blockquote,
+dt,
+dd {
+  font-family: Helvetica Neue;
+}
+
+pre,
+code {
+  font-family: Menlo;
+}

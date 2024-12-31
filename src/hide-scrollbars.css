@@ -1,0 +1,9 @@
+/* ==UserStyle==
+@name        hide-scrollbars
+@match       <all_urls>
+@run-at      document-start
+==/UserStyle== */
+
+::-webkit-scrollbar {
+  display: none;
+}

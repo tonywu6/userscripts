@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name         cppreference.com
+@match        https://cppreference.com/*
+@match        https://*.cppreference.com/*
+==/UserStyle== */
+
+tt,
+code,
+pre,
+.mw-geshi,
+.t-lc,
+.t-dsc-member-div *,
+#wpTextbox1 {
+  font-family: "Fira Code", "Inconsolata", "Monaco" !important;
+}

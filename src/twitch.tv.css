@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name         twitch.tv
+@match        https://twitch.tv/*
+@match        https://*.twitch.tv/*
+==/UserStyle== */
+
+[data-a-target="chat-timestamp"] + div {
+  display: inline-flex !important;
+  flex-direction: row-reverse;
+}
+
+[data-a-target="chat-timestamp"] + div > div {
+  margin-right: 0.4rem !important;
+  position: relative;
+  top: 1px;
+}
+
+[data-a-target="chat-timestamp"] + div > div:nth-child(1) {
+  display: none !important;
+  color: #bd3f3d;
+}
+[data-a-target="chat-timestamp"] + div > div:nth-child(2) {
+  color: #efac29;
+}
+[data-a-target="chat-timestamp"] + div > div:nth-child(3) {
+  color: #5e88dc;
+}
+
+.chat-line__message {
+  padding: 0.2rem 2rem;
+}

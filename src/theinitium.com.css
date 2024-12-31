@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name         theinitium.com
+@match        https://theinitium.com/*
+@match        https://*.theinitium.com/*
+==/UserStyle== */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@200;300;400;500;600;700;800;900&display=swap");
+
+p {
+  font-family: "Noto Serif HK", serif;
+}
+
+main.module-content .content__body .main-content .article__body p {
+  text-align: left;
+}
+
+main.module-content .content__body .main-content .article__body h3 {
+  font-family: "Noto Sans TC";
+}

@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name         reddit.com
+@match        https://reddit.com/*
+@match        https://*.reddit.com/*
+==/UserStyle== */
+
+@font-face {
+  font-family: "Verdana";
+  src: local("Lato");
+}
+@font-face {
+  font-family: "Verdana";
+  font-weight: bold;
+  src: local("Lato-Bold");
+}
+@font-face {
+  font-family: "Verdana";
+  font-style: italic;
+  src: local("Lato-Italic");
+}
+@font-face {
+  font-family: "Verdana";
+  font-weight: bold;
+  font-style: italic;
+  src: local("Lato-BoldItalic");
+}

@@ -1,0 +1,9 @@
+/* ==UserStyle==
+@name        lpsg.com
+@match       https://*.lpsg.com/*
+==/UserStyle== */
+
+.video-easter-egg-blocker,
+.video-easter-egg-overlay {
+  display: none;
+}

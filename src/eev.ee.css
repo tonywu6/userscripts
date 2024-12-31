@@ -1,0 +1,8 @@
+/* ==UserStyle==
+@name        fuzzy notepad
+@match       https://eev.ee/*
+==/UserStyle== */
+
+article {
+  text-align: start;
+}

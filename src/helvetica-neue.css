@@ -1,0 +1,103 @@
+/* ==UserStyle==
+@name          Helvetica Neue
+@match         <all_urls>
+@run-at        document-start
+==/UserStyle== */
+
+@font-face {
+  font-family: "Helvetica";
+  src: local("HelveticaNeue");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  font-weight: bold;
+  src: local("HelveticaNeue-Bold");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  font-style: italic;
+  src: local("HelveticaNeue-Italic");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  font-weight: bold;
+  font-style: italic;
+  src: local("HelveticaNeue-BoldItalic");
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: local("HelveticaNeue-Bold");
+}
+
+@font-face {
+  font-family: "Helvetica-Oblique";
+  src: local("HelveticaNeue-Italic");
+}
+
+@font-face {
+  font-family: "Helvetica-BoldOblique";
+  src: local("HelveticaNeue-BoldItalic");
+}
+
+@font-face {
+  font-family: "Helvetica-Light";
+  src: local("HelveticaNeue-Light");
+}
+
+@font-face {
+  font-family: "Helvetica-LightOblique";
+  src: local("HelveticaNeue-LightItalic");
+}
+
+@font-face {
+  font-family: "Arial";
+  font-display: swap;
+  src: local("HelveticaNeue");
+}
+
+@font-face {
+  font-family: "Arial";
+  font-weight: bold;
+  src: local("HelveticaNeue-Bold");
+}
+
+@font-face {
+  font-family: "Arial";
+  font-style: italic;
+  src: local("HelveticaNeue-Italic");
+}
+
+@font-face {
+  font-family: "Arial";
+  font-weight: bold;
+  font-style: italic;
+  src: local("HelveticaNeue-BoldItalic");
+}
+
+@font-face {
+  font-family: "Arial Unicode MS";
+  src: local("HelveticaNeue");
+}
+
+@font-face {
+  font-family: "Arial Unicode MS";
+  font-weight: bold;
+  src: local("HelveticaNeue-Bold");
+}
+
+@font-face {
+  font-family: "Arial Unicode MS";
+  font-style: italic;
+  src: local("HelveticaNeue-Italic");
+}
+
+@font-face {
+  font-family: "Arial Unicode MS";
+  font-weight: bold;
+  font-style: italic;
+  src: local("HelveticaNeue-BoldItalic");
+}
