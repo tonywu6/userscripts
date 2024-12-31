@@ -14,4 +14,12 @@
       }
     }
   });
+  document.querySelectorAll("h2").forEach((elem) => {
+    if (elem.textContent === "AI Overview") {
+      const parent = elem.parentElement;
+      if (parent) {
+        parent.style.display = "none";
+      }
+    }
+  });
 })();
